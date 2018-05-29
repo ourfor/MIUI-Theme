@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:clipChildren="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/itemview_horizontal_padding_from_screen" android:layout_marginEnd="@dimen/itemview_horizontal_padding_from_screen" />
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/text_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="100.0dip" android:text="@string/resource_data_empty" style="@style/Resource.Widget.List.Empty" />
+    <include layout="@layout/v9_loading_progress" />
+</FrameLayout>

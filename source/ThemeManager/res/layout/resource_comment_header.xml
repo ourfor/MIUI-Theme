@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/container" android:background="@drawable/resource_comment_average_score_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="@style/TextAppearance.Comment.AverageScoreText" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/resource_comment_average_score" />
+        <TextView android:textAppearance="@style/TextAppearance.Comment.AverageScore" android:layout_gravity="center_horizontal" android:id="@id/average_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+        <RatingBar android:id="@id/ratingbar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Resource.Widget.RatingBar.ReadOnly" />
+        <TextView android:textAppearance="@style/TextAppearance.Comment.TotalScoreCount" android:layout_gravity="center_horizontal" android:id="@id/comment_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rating_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/resource_comment_rating_bar_top_margin" android:layout_alignParentTop="true" android:paddingStart="@dimen/resource_comment_padding_common" android:layout_toEndOf="@id/container" android:layout_alignParentEnd="true">
+        <include android:id="@id/resource_comment_5_star" layout="@layout/resource_comment_header_rating_item" />
+        <include android:id="@id/resource_comment_4_star" layout="@layout/resource_comment_header_rating_item" />
+        <include android:id="@id/resource_comment_3_star" layout="@layout/resource_comment_header_rating_item" />
+        <include android:id="@id/resource_comment_2_star" layout="@layout/resource_comment_header_rating_item" />
+        <include android:id="@id/resource_comment_1_star" layout="@layout/resource_comment_header_rating_item" />
+    </LinearLayout>
+</RelativeLayout>

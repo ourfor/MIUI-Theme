@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.ThemeVideoView android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:layout_gravity="end" android:id="@id/audio_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.329987dip" android:checked="false" android:button="@drawable/btn_video_audio_checkbox" android:layout_marginEnd="16.669983dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/video_start_play" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" style="@style/WallpaperDetailProgress" />
+    <Button android:layout_gravity="bottom|center" android:id="@id/applyButton" android:layout_width="@dimen/wallpaper_download_btn_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/wallpaper_download_layout_padding_bottom" style="@style/WallpaperApplyBtn" />
+</FrameLayout>

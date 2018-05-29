@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_view_layout" android:background="@drawable/search_normal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.SearchTextSwitcher android:layout_gravity="bottom" android:id="@id/switcher" android:background="@drawable/search_bg" android:layout_width="fill_parent" android:layout_height="32.599976dip" android:layout_marginBottom="7.6999817dip" android:layout_marginStart="@dimen/itemview_horizontal_padding_from_screen" android:layout_marginEnd="@dimen/itemview_horizontal_padding_from_screen" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/xiaoai" android:layout_width="59.19998dip" android:layout_height="32.599976dip" android:layout_marginBottom="7.6999817dip" android:src="@drawable/btn_search_xiaomi" android:paddingStart="@dimen/itemview_horizontal_padding_from_screen" android:paddingEnd="@dimen/itemview_horizontal_padding_from_screen" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="15.0dip" android:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/resource_exchange_hint" android:singleLine="true" android:maxLength="30" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+    <Button android:textColor="@color/resource_detail_button_text_color" android:id="@id/exchangeBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/resource_exchange" style="@style/Widget.Button.Warning" />
+    <Button android:id="@id/cancelBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+</LinearLayout>

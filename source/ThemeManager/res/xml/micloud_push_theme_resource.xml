@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<micloud-push contentAuthority="com.android.thememanager" pushType="cmd" pushName="micloud.theme.cmd" capability="theme.payment,theme.v6,theme.push" xmlns:miui="http://schemas.android.com/apk/res/miui" />

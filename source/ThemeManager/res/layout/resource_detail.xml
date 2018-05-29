@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.ResourceScrollView android:id="@id/childroot" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/contentArea" android:paddingBottom="@dimen/detail_content_view_bottom_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.android.thememanager.view.ResourceScrollView>
+    <View android:id="@id/statusbar_base" android:background="@drawable/theme_window_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <com.android.thememanager.view.ResourceOperationView android:gravity="bottom|center" android:layout_gravity="bottom" android:id="@id/operationBar" android:background="@drawable/resource_operation_view_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/loading_detail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_resource_detail_info" />
+    </LinearLayout>
+    <ImageView android:id="@id/coverview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

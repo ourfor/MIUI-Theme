@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/card_font_list_height" android:paddingStart="@dimen/itemview_horizontal_padding_from_screen" android:paddingEnd="@dimen/itemview_horizontal_padding_from_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.NinePatchImageView android:layout_gravity="center" android:id="@id/thumbnail" android:paddingTop="@dimen/card_font_thunmnail_padding_vertical" android:paddingBottom="@dimen/card_font_thunmnail_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <CheckBox android:id="@android:id/checkbox" android:layout_centerVertical="true" style="@style/FavoritedListCheckboxBtn" />
+    <TextView android:id="@id/incompatible" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginBottom="@dimen/purchased_font_price_padding_bottom" android:text="@string/current_version_incompatible" android:layout_alignParentBottom="true" style="@style/ResourceBrowser.ResourceDescription.SubDescription" />
+    <TextView android:id="@id/purchased_time" android:layout_width="wrap_content" android:layout_marginBottom="@dimen/purchased_font_price_padding_bottom" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/ResourceBrowser.ResourceDescription.SubDescription" />
+    <TextView android:id="@id/purchased_price" android:layout_width="wrap_content" android:layout_marginBottom="@dimen/purchased_font_price_padding_bottom" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/purchased_time" style="@style/ResourceBrowser.ResourceDescription.SubDescription" />
+    <View android:id="@id/divider" android:background="@color/item_resource_audio_list_divider_light_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

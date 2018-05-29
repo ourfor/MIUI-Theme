@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/tablayout_stub" android:layout="@layout/resource_list_piece_tablayout" android:inflatedId="@id/tablayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.thememanager.view.FilledListView android:id="@android:id/list" android:paddingBottom="10.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.ListView" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/loadingprogressbar" android:background="@drawable/loading_view_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="bottom" android:id="@id/empty_view_stub" android:layout="@layout/resource_list_piece_empty_view" android:inflatedId="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/select_others_fab_stub" android:padding="8.0dip" android:layout="@layout/resource_list_piece_select_others_fab" android:inflatedId="@id/select_others_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/select_others_fab_margin" android:layout_marginEnd="@dimen/select_others_fab_margin" />
+    </FrameLayout>
+</LinearLayout>

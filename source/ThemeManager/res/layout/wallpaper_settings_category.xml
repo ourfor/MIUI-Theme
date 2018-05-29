@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/root" android:background="@color/item_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/wallpaper_settings_category_page_horizontal_padding" android:paddingEnd="@dimen/wallpaper_settings_category_page_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.thememanager.view.ResourceEmptyView android:gravity="center" android:id="@id/empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/wallpaper_settings_no_history_text_color" android:layout_gravity="center_horizontal" android:id="@id/no_history" android:paddingTop="@dimen/wallpaper_settings_no_history_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallpaper_settings_no_history" android:drawableTop="@drawable/settings_empty" android:drawablePadding="17.699982dip" />
+    <include android:id="@id/loading" layout="@layout/wallpaper_settings_loading" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThemeList>
+    <Theme nameResId="online_precust_peach_blossom" onlineId="6d123b7e-69a2-47cf-bc2f-7de6b8298d32" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_peach_blossom.jpg" />
+    <Theme nameResId="online_precust_asphalt" onlineId="8b3dcdf7-91d0-479c-8f91-9b81077fdeed" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_asphalt.jpg" />
+    <Theme nameResId="online_precust_tiny" onlineId="300007cd-41c8-4a2d-b3bf-b892b6d2d936" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_tiny.jpg" />
+    <Theme nameResId="online_precust_paper_world" onlineId="7347d4af-52dc-4924-938c-bdb1b317b734" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_paper_world.jpg" />
+    <Theme nameResId="online_precust_forest_stories" onlineId="22f03694-7696-4fb7-9c94-793524f8b658" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_forest_stories.jpg" />
+    <Theme nameResId="online_precust_chubby_dreamer" onlineId="43840290-6f4e-4a33-8820-190ed0eaf242" thumbnail="file:///android_asset/theme-settings-res-global/precust_online_theme_chubby_dreamer.jpg" />
+</ThemeList>

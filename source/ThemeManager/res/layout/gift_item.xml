@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.thememanager.gift.GiftItem android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.ListView.Item.TripleLine"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.thememanager.gift.GiftOperationView android:id="@id/operationView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_toStartOf="@id/operationView" android:layout_alignParentStart="true" style="@style/TextAppearance.List.Primary" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:id="@id/code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textIsSelectable="true" android:layout_alignParentStart="true" style="@style/TextAppearance.List.Secondary" />
+        <TextView android:id="@id/endNote" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/TextAppearance.Widget.Title.Endnote" />
+    </RelativeLayout>
+</com.android.thememanager.gift.GiftItem>

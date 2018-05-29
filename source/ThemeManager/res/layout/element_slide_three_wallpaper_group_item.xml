@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="@dimen/display_sliding_list_image_width" android:layout_height="@dimen/display_sliding_list_image_height" android:layout_marginBottom="@dimen/itemview_horizontal_padding_from_screen" android:scaleType="centerCrop"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

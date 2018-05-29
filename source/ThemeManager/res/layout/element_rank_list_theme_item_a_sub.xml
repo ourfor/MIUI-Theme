@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/display_rank_image_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="@dimen/display_rank_image_width" android:layout_height="@dimen/display_rank_image_height" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/rank_icon" android:layout_marginEnd="3.2999878dip" android:layout_alignParentEnd="true" style="@style/CardItemRankImage" />
+    <TextView android:id="@android:id/title" android:paddingTop="7.0dip" android:layout_below="@id/thumbnail" style="@style/ResourceBrowser.ResourceDescription.Vertical" />
+</RelativeLayout>

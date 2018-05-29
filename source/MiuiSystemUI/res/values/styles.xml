@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearanceSmall">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearanceMedium">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="TextAppearance" />
+    <style name="TextAppearance.StatusBar" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.IntruderAlert" parent="@style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.SystemPanel" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff808080</item>
+    </style>
+    <style name="TextAppearance.StatusBar.TextButton" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Clock" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/statusbar_clock_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/status_bar_textColor</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Carrier" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/statusbar_carrier_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/status_bar_textColor</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expand.Carrier" parent="@style/TextAppearance.StatusBar.Carrier" />
+    <style name="TextAppearance.StatusBar.Carrier.CDMA" parent="@style/TextAppearance.StatusBar.Carrier">
+        <item name="android:textSize">@dimen/statusbar_cdma_carrier_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Battery" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/statusbar_battery_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/status_bar_textColor</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded" parent="@style/TextAppearance.StatusBar" />
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_date_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_date</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Weather" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_weather_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_weather</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_clock_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_weather</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Clock.Notch" parent="@style/TextAppearance.StatusBar.Expanded.Clock">
+        <item name="android:textSize">@dimen/notch_expanded_clock_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_weather</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Weather.Description" parent="@style/TextAppearance.StatusBar.Expanded.Weather">
+        <item name="android:textColor">@color/status_bar_expanded_weather_publish_time</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Account" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_account_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_account</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Blocker" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_notification_blocker_text_size</item>
+        <item name="android:textColor">@color/expanded_notification_blocker_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Title" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_title_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_title</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Content" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">@dimen/expanded_content_size</item>
+        <item name="android:textColor">@color/status_bar_expanded_content</item>
+    </style>
+    <style name="Animation" />
+    <style name="Animation.ShirtPocketPanel" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@android.miui:anim/android_grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@android.miui:anim/android_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Animation.RecentPanel" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="Animation.StatusBarBlur" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/status_bar_blur_enter</item>
+        <item name="android:windowExitAnimation">@anim/status_bar_blur_exit</item>
+    </style>
+    <style name="Animation.AppPanelBlur" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/status_bar_blur_exit</item>
+    </style>
+    <style name="Animation.Loading" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/status_bar_blur_exit</item>
+    </style>
+    <style name="Animation.CleanTip" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/clean_tip_enter</item>
+        <item name="android:windowExitAnimation">@anim/clean_tip_exit</item>
+    </style>
+    <style name="Animation.StatusBar" parent="@style/Animation" />
+    <style name="systemui_theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorControlActivated">@color/system_accent_color</item>
+        <item name="android:colorPrimary">@color/system_primary_color</item>
+    </style>
+    <style name="Animation.StatusBar.IntruderAlert" parent="@style/Animation.StatusBar">
+        <item name="android:windowEnterAnimation">@anim/priority_alert_enter</item>
+        <item name="android:windowExitAnimation">@anim/priority_alert_exit</item>
+    </style>
+    <style name="TextAppearance.StatusBar.PhoneTicker" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">10.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/status_bar_textColor</item>
+    </style>
+    <style name="StatusBarGridItem">
+        <item name="android:textSize">@dimen/toggle_text_size</item>
+        <item name="android:textColor">@color/toggle_lable_color</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingTop">7.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="StatusBarTab">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/tab_lable_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#d9ffffff</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TaskItemTitle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/task_manager_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@color/task_item_text_shadowColor</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:drawablePadding">5.0dip</item>
+    </style>
+    <style name="ActionBar" parent="@miui:style/Widget.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="ActionBar.Split" parent="@miui:style/Widget.ActionBar.Split">
+        <item name="android:backgroundSplit">@android:color/transparent</item>
+    </style>
+    <style name="Widget.Light.SeekBar" parent="@miui:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_progress_light</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_light</item>
+    </style>
+    <style name="NotificationContent" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="QSBorderlessButton">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TextAppearance.QS" parent="@style/TextAppearance" />
+    <style name="TextAppearance.QS.DetailButton" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_button_text_size</item>
+        <item name="android:textColor">@color/qs_detail_button</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemPrimary" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_item_primary_text_size</item>
+        <item name="android:textColor">@color/qs_detail_item_primary_text_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSecondary" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_item_secondary_text_size</item>
+        <item name="android:textColor">@color/qs_detail_connect_item_secondary_text_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailEmpty" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_empty_text_size</item>
+        <item name="android:textColor">@color/qs_detail_empty_text_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_header_text_size</item>
+        <item name="android:textColor">@color/qs_detail_header_text</item>
+    </style>
+    <style name="TextAppearance.QS.DetailSeparated" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_separated_text_size</item>
+        <item name="android:textColor">@color/qs_detail_separated_text</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSuccessTitle" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_connect_item_primary_text_size</item>
+        <item name="android:textColor">@color/qs_detail_connect_item_primary_text_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSuccessSubTitle" parent="@style/TextAppearance.QS">
+        <item name="android:textSize">@dimen/qs_detail_item_secondary_text_size</item>
+        <item name="android:textColor">@color/qs_detail_connect_item_secondary_text_color</item>
+    </style>
+    <style name="systemui_theme_remote_input" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="DockedDividerBackground">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10.0dip</item>
+    </style>
+    <style name="DockedDividerMinimizedShadow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">8.0dip</item>
+    </style>
+    <style name="DockedDividerHandle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">96.0dip</item>
+        <item name="android:layout_height">48.0dip</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog" parent="@miui:style/Theme.Light.Dialog.Alert" />
+    <style name="ForcedResizableTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/forced_resizable_background</item>
+        <item name="android:windowAnimationStyle">@style/Animation.ForcedResizable</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+    </style>
+    <style name="Animation.ForcedResizable" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/forced_resizable_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/forced_resizable_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/forced_resizable_enter</item>
+    </style>
+    <style name="RecentsTheme" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:ambientShadowAlpha">0.35</item>
+    </style>
+    <style name="RecentsTheme.Wallpaper" parent="@style/RecentsTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="FsgDemoStepTextStyle" parent="@miui:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/fsgesture_step_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RecentsTheme.NoWallpaper" parent="@style/RecentsTheme">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+    <style name="Theme.NoTitle.FullScreen" parent="@miui:style/Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Toggle.Arrangement" parent="@miui:style/Theme.Dark">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarSplitStyle">@style/ActionBar.Split</item>
+    </style>
+    <style name="Animation.NavigationBarFadeIn" parent="@style/Animation">
+        <item name="android:windowEnterAnimation">@anim/navbar_fade_in</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="PipPhoneOverlayControlTheme" parent="@android:style/Theme.Material">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/Animation.PipPhoneOverlayControl</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Animation.PipPhoneOverlayControl" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/forced_resizable_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/forced_resizable_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/forced_resizable_enter</item>
+    </style>
+</resources>

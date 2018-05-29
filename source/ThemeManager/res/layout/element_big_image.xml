@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="@dimen/card_font_single_big_image_height" android:scaleType="centerCrop" />
+</FrameLayout>

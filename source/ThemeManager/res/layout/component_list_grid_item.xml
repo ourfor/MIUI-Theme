@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_layout" android:background="@drawable/local_grid_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/component_list_grid_item_min_height" android:paddingStart="@dimen/component_list_grid_item_horizontal_padding">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/component_list_grid_item_text_horizontal_padding">
+            <TextView android:textSize="13.299988sp" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:layout_alignParentStart="true" style="@style/TextAppearance.List.Primary.ComponentTitle" />
+            <ImageView android:id="@id/updatable_icon" android:paddingTop="@dimen/account_updatable_icon_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_new_message_big" android:scaleType="center" android:paddingStart="@dimen/account_updatable_icon_padding_left" android:layout_toEndOf="@id/title" />
+            <TextView android:textSize="11.299988sp" android:id="@id/summary" android:paddingTop="@dimen/component_list_grid_item_summary_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/title" android:layout_alignParentStart="true" style="@style/TextAppearance.List.Secondary" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/right_border" android:background="@color/resource_list_grid_item_border" android:visibility="gone" android:layout_width="@dimen/resource_list_grid_item_border" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/bottom_border" android:background="@color/resource_list_grid_item_border" android:layout_width="fill_parent" android:layout_height="@dimen/resource_list_grid_item_border" android:layout_alignParentBottom="true" />
+</RelativeLayout>

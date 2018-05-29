@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d 个最近运行的应用</item>
+        <item quantity="one">1 个最近运行的应用</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">进入多任务界面,共有%d个任务</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">进入多任务界面,共有%d个任务，上滑任务清除、下滑任务加锁</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">上方%1$d个开关会出现在通知栏</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">共选择%d个应用</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">%1$s等%2$d个应用，点击查看</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">晴</item>
+    </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">天气，%d度</item>
+    </plurals>
+    <plurals name="notification_group_child_count">
+        <item quantity="other">%1$d条通知</item>
+        <item quantity="one">%1$d条通知</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">此群组内还有 %s 条通知。</item>
+        <item quantity="one">此群组内还有 %s 条通知。</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d 条不重要通知</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smartrefresh.layout.SmartRefreshLayout android:id="@id/refreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+        <ViewStub android:id="@id/reload_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:gravity="center_vertical" layout="@layout/v9_loading_progress" />
+        <com.android.thememanager.view.SearchPanelItem android:layout_gravity="top" android:id="@id/search_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.scwang.smartrefresh.layout.SmartRefreshLayout>

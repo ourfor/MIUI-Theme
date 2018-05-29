@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/entry" android:background="@drawable/local_grid_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/list_preferred_item_height" android:paddingStart="@dimen/default_horizontal_offset_from_screen" android:paddingEnd="@dimen/default_horizontal_offset_from_screen">
+        <TextView android:layout_gravity="start|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_my_miwallpaper_resource" android:layout_weight="1.0" style="@style/TextAppearance.List.Primary" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_right" android:layout_marginEnd="@dimen/account_arrow_margin_right" />
+    </LinearLayout>
+    <View android:id="@id/cards_divider" style="@style/ResourceCardsDivider" />
+</LinearLayout>

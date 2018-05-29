@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/color_ring_back_tone_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.Dialog.RingtoneApply.Choice" android:ellipsize="end" android:id="@id/apply_color_ring_back_tone" android:text="@string/theme_apply_audio_dialog_item_color_ring_back_tone" android:singleLine="true" style="@style/ResourceBrowser.Dialog.Choice" />
+        <include layout="@layout/theme_vertical_separate_line" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.Dialog.RingtoneApply.Choice" android:ellipsize="end" android:id="@id/apply_ringtone" android:text="@string/theme_apply_audio_dialog_item_ringtone" android:singleLine="true" style="@style/ResourceBrowser.Dialog.Choice" />
+    <include layout="@layout/theme_vertical_separate_line" />
+    <TextView android:textAppearance="@style/TextAppearance.Dialog.RingtoneApply.Choice" android:ellipsize="end" android:id="@id/apply_notification" android:text="@string/theme_apply_audio_dialog_item_notification" android:singleLine="true" style="@style/ResourceBrowser.Dialog.Choice" />
+    <include layout="@layout/theme_vertical_separate_line" />
+    <TextView android:textAppearance="@style/TextAppearance.Dialog.RingtoneApply.Choice" android:ellipsize="end" android:id="@id/apply_alarm" android:text="@string/theme_apply_audio_dialog_item_alarm" android:singleLine="true" style="@style/ResourceBrowser.Dialog.Choice" />
+    <include layout="@layout/theme_vertical_separate_line" />
+    <TextView android:textAppearance="@style/TextAppearance.Dialog.RingtoneApply.Choice.Negative" android:ellipsize="end" android:id="@id/cancel" android:text="@android:string/cancel" android:singleLine="true" style="@style/ResourceBrowser.Dialog.Choice" />
+</LinearLayout>

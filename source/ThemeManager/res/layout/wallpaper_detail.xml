@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:background="@drawable/wallpaper_detail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.WallpaperView android:id="@id/wallpaperView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.android.thememanager.view.AutoSwitchImageView android:id="@id/preview_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/operation_bar" android:layout_width="fill_parent" android:layout_height="@dimen/wallpaper_download_btn_height" android:layout_marginBottom="@dimen/wallpaper_download_layout_padding_bottom">
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/applyButton" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" style="@style/WallpaperApplyBtn" />
+        <ImageView android:layout_gravity="center" android:id="@id/favoriteButton" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/wallpaper_detail_btn_favorite_bg_light" android:scaleType="center" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end|center|top" android:id="@id/wallpaper_scroll_type" android:paddingTop="@dimen/wallpaper_scroll_type_padding_top" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/wallpaper_scroll_type_padding_end">
+        <TextView android:textSize="@dimen/wallpaper_scroll_text_size" android:textColor="@color/wallpaper_scroll_type" android:gravity="start|center" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallpaper_scroll_type_tips" android:singleLine="true" android:layout_marginEnd="@dimen/wallpaper_scroll_text_margin_end" />
+        <miui.widget.SlidingButton android:layout_gravity="end|center" android:id="@id/scroll_button" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@miui:style/Widget.Dark.SlidingButton" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/loading_view" android:background="@color/wallpaper_loading_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progress" android:layout_marginBottom="21.0dip" android:layout_centerInParent="true" style="@style/WallpaperDetailProgress" />
+        <TextView android:textSize="13.0sp" android:textColor="#7fffffff" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/is_setting_wallpaper_message" android:layout_below="@id/progress" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>

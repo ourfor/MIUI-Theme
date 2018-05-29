@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/provision_btn_text_size" android:textColor="@color/provision_back_text_color" android:id="@id/back_btn" android:text="@string/resource_back" style="@style/ProvisionOperationBtn"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

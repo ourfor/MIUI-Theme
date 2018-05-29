@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.theme" package="com.android.thememanager" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.miui.permission.SHELL"/>
+    <uses-permission android:name="com.xiaomi.xmsf.permission.PAYMENT"/>
+    <uses-permission android:name="com.xiaomi.channel.GAME_SERVICE_PERMISSION"/>
+    <uses-permission android:name="com.xiaomi.vip.permission.SERVICE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.xiaomi.gallery.permission.CLOUD"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="miui.permission.USE_INTERNAL_GENERAL_API"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <permission android:name="com.android.thememanager.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.thememanager.permission.MIPUSH_RECEIVE"/>
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER"/>
+    <uses-permission android:name="com.anroid.settings.permission.PRIVACY_AUTHORIZATION_DIALOG"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <compatible-screens/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:largeHeap="true" android:name="com.android.thememanager.ThemeApplicationProxy" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/Theme.ResourceBrowser">
+        <meta-data android:name="com.android.thememanager.util.GlideConfiguration" android:value="GlideModule"/>
+        <uses-library android:name="cloud-common.jar"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ThemeTabActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.thememanager.settings" android:theme="@style/ThemeTabListV9" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="miui.intent.action.PICK_GADGET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.RINGTONE_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="miui.intent.action.RINGTONE_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/list" android:scheme="theme"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/list" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/page" android:scheme="theme"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/page" android:scheme="http"/>
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable" android:value=".search.ThemeSearchActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleTop" android:name="com.android.thememanager.ThemeResourceTabActivity" android:screenOrientation="portrait" android:theme="@style/Home" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/mainpage" android:scheme="theme"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/mainpage" android:scheme="http"/>
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable" android:value=".search.ThemeSearchActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="com.android.thememanager.activity.ThemeSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.thememanager.settings" android:theme="@style/Theme.ThemeManager.Light.Settings"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.GiftTabActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.List" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing">
+            <meta-data android:name="android.app.default_searchable" android:value=".search.ThemeSearchActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.v9.PurchasedOrFavoritedTabActivity" android:screenOrientation="portrait" android:theme="@style/ThemeTabListV9" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.search.ThemeSearchActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.NoDisplayOptions" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/search" android:scheme="theme"/>
+            </intent-filter>
+            <meta-data android:name="android.app.default_searchable" android:value=".search.ThemeSearchActivity"/>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ThemeWebActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.List" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/web" android:scheme="theme"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/web" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ThemeDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.NoDisplayOptions" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:pathPrefix="/detail/" android:scheme="http"/>
+                <data android:host="m.zhuti.xiaomi.com" android:pathPrefix="/detail/" android:scheme="http"/>
+                <data android:host="zhuti.xiaomi.com" android:pathPrefix="/detail/" android:scheme="theme"/>
+                <data android:host="m.zhuti.xiaomi.com" android:pathPrefix="/detail/" android:scheme="theme"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="view.local.resource" android:pathPattern=".*" android:scheme="ViewLocalResource"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/redeem" android:scheme="http"/>
+                <data android:host="m.zhuti.xiaomi.com" android:pathPattern="/redeem" android:scheme="http"/>
+                <data android:host="zhuti.xiaomi.com" android:pathPattern="/redeem" android:scheme="theme"/>
+                <data android:host="m.zhuti.xiaomi.com" android:pathPattern="/redeem" android:scheme="theme"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.VideoDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ThemeManager.Wallpaper" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.WallpaperDetailActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ThemeManager.Wallpaper" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="miui.intent.action.START_WALLPAPER_DETAIL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/wallpaper" android:scheme="theme"/>
+                <data android:host="zhuti.xiaomi.com" android:path="/wallpaper" android:scheme="http"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="com.android.thememanager.v9.WallpaperSubjectActivity" android:screenOrientation="portrait" android:theme="@style/Wallpaper.Subject.Activity" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:exported="true" android:label="@string/wallpaper_settings_page_title" android:name="com.android.thememanager.settings.WallpaperSettingsActivity" android:screenOrientation="portrait" android:taskAffinity="com.android.thememanager.settings" android:theme="@style/Theme.ThemeManager.Light.Settings"/>
+        <activity android:name="com.android.thememanager.settings.WallpaperCategoryActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ThemeManager.Light.Settings"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/title_component" android:name="com.android.thememanager.activity.ComponentActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.List" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.comment.ResourceCommentsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.comment.ResourceCommentEditActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.EditModeTitle" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/theme_setting" android:launchMode="singleTop" android:name="com.android.thememanager.activity.ThemePreferenceActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.List" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ResourceTrialDialogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.Dialog" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:label="@string/resource_exchange_window_title" android:name="com.android.thememanager.activity.ResourceExchangeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.ResourceBrowser.List" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:name="com.android.thememanager.activity.ThemeProvisionActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Light.NoTitle" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.h5.WebResourceDevPreference" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ThirdPartyPickersActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="miui.maml.MamlConfigSettings" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="miui.maml.ThirdAppPicker" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.android.thememanager.activity.ApplyThemeForScreenshot" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity-alias android:name="com.android.thememanager.ApplyThemeForScreenshot" android:targetActivity="com.android.thememanager.activity.ApplyThemeForScreenshot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <service android:enabled="true" android:exported="false" android:name="com.miui.zeus.monitor.crash.CrashMonitorService" android:process=":crash"/>
+        <service android:exported="true" android:name="com.android.thememanager.service.ThemeService">
+            <intent-filter>
+                <action android:name="com.miui.service.THEMESERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.android.thememanager.service.ThemeTaskService">
+            <intent-filter>
+                <action android:name="com.android.thememanager.ClearFreshReminder"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.android.thememanager.service.ThemeSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.android.thememanager.service.ThemePCService">
+            <intent-filter>
+                <action android:name="com.android.thememanager.service.IThemePCService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.android.thememanager.service.ThemeTaskReceiver" android:permission="miui.permission.USE_INTERNAL_GENERAL_API">
+            <intent-filter>
+                <action android:name="android.provision.action.PROVISION_START"/>
+                <action android:name="miui.intent.action.CLEAR_THEME_RUNTIME_DATA"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.thememanager.ThemeBugreportDumpReceiver" android:permission="miui.permission.DUMP_CACHED_LOG">
+            <intent-filter>
+                <action android:name="com.miui.core.intent.ACTION_DUMP_CACHED_LOG"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.thememanager.ResourceDownloadReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:name="com.android.thememanager.util.PriorityStorageBroadcastReceiver">
+            <intent-filter>
+                <action android:name="miui.intent.action.PRIORITY_STORAGE"/>
+            </intent-filter>
+            <meta-data android:name="miui.intent.extra.PRIORITY_STORAGE_KILL_APP" android:value="0"/>
+        </receiver>
+        <provider android:authorities="com.android.thememanager.provider" android:exported="true" android:name="com.android.thememanager.service.ThemeRuntimeDataProvider" android:permission="miui.permission.USE_INTERNAL_GENERAL_API"/>
+        <provider android:authorities="com.android.thememanager.open" android:exported="true" android:grantUriPermissions="true" android:name="com.android.thememanager.service.MediaOpenProvider"/>
+        <service android:enabled="true" android:name="com.xiaomi.push.service.XMPushService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xiaomi.mipush.sdk.PushMessageHandler"/>
+        <service android:enabled="true" android:name="com.xiaomi.mipush.sdk.MessageHandleService"/>
+        <receiver android:exported="true" android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.xiaomi.push.service.receivers.PingReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.android.thememanager.push.ThemePushReceiver">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.micloudPush.REGISTRATION"/>
+            </intent-filter>
+            <meta-data android:name="com.xiaomi.MicloudPush" android:resource="@xml/micloud_push_theme_resource"/>
+        </receiver>
+        <meta-data android:name="android.max_aspect" android:value="2.2"/>
+        <meta-data android:name="notch.config" android:value="portrait"/>
+        <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+    </application>
+</manifest>

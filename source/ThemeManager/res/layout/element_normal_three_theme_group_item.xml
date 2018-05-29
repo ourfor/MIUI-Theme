@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/itemview_triple_vertical_padding_from_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="@dimen/display_triple_image_width" android:layout_height="@dimen/display_triple_image_height" android:scaleType="fitXY" />
+    <TextView android:id="@android:id/title" style="@style/ResourceBrowser.ResourceDescription.Vertical" />
+    <include layout="@layout/card_resource_item_price_view" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="taskmanager_screenshot_distance_to_bottom">0.6</item>
+    <dimen name="status_bar_recents_right_glow_margin">0.0dip</dimen>
+    <dimen name="notch_expanded_clock_size">30.0sp</dimen>
+    <dimen name="recent_task_item_horizontal_padding">17.0dip</dimen>
+    <dimen name="recent_task_txt_memory_margin_top">8.0dip</dimen>
+    <dimen name="recent_task_padding_bottom">13.0dip</dimen>
+    <dimen name="recent_task_txt_memory_text_size">12.0sp</dimen>
+    <dimen name="recent_task_music_element_height">59.0dip</dimen>
+    <dimen name="recent_task_title_padding_top">7.0dip</dimen>
+    <dimen name="expanded_header_no_search_height">80.0dip</dimen>
+    <dimen name="expanded_header_no_search_padding_top">0.0dip</dimen>
+    <dimen name="expanded_status_bar_toggles_brightness_panel_height">99.0dip</dimen>
+    <item type="dimen" name="notification_panel_width">@dimen/standard_notification_panel_width</item>
+    <item type="dimen" name="float_notification_panel_width">@dimen/standard_float_notification_panel_width</item>
+    <dimen name="docked_divider_handle_width">2.0dip</dimen>
+    <dimen name="docked_divider_handle_height">16.0dip</dimen>
+    <dimen name="notch_settings_button_margin">9.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_text_description_padding">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width">156.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">12.0dip</dimen>
+    <dimen name="status_bar_recents_item_padding">2.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8.0dip</dimen>
+    <dimen name="clean_toast_bottom_margin">34.0dip</dimen>
+    <dimen name="task_access_locked_app_padding_vertical">60.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_top_margin">28.0dip</dimen>
+    <dimen name="expanded_status_bar_toggles_height">180.0dip</dimen>
+    <dimen name="recent_task_circle_progress_bar_height">37.0dip</dimen>
+    <dimen name="recent_task_circle_progress_bar_margin_top">19.0dip</dimen>
+</resources>

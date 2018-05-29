@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail_0" android:layout_width="@dimen/wallpaper_alien_three_grid_view_big_image_width" android:layout_height="@dimen/wallpaper_alien_three_grid_view_big_image_height" android:layout_marginBottom="@dimen/recycler_divider_height" android:scaleType="centerCrop" android:layout_marginStart="@dimen/itemview_horizontal_padding_from_screen" android:layout_marginEnd="@dimen/itemview_horizontal_padding_from_screen" />
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail_1" android:layout_marginBottom="@dimen/itemview_horizontal_padding_from_screen" android:layout_below="@id/thumbnail_0" android:layout_marginStart="@dimen/itemview_horizontal_padding_from_screen" android:layout_marginEnd="@dimen/recycler_divider_height" style="@style/OddThreeGridViewSmallImage" />
+    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail_2" android:layout_marginBottom="@dimen/itemview_horizontal_padding_from_screen" android:layout_below="@id/thumbnail_0" android:layout_marginEnd="@dimen/itemview_horizontal_padding_from_screen" android:layout_toEndOf="@id/thumbnail_1" style="@style/OddThreeGridViewSmallImage" />
+</RelativeLayout>

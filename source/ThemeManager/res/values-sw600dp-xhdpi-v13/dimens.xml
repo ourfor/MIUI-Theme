@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_horizontal_offset_from_screen">40.0dip</dimen>
+    <dimen name="list_thumbnail_gap">10.0dip</dimen>
+    <dimen name="recommend_thumbnail_gap">10.0dip</dimen>
+    <dimen name="recommend_thumbnail_vertical_offset">40.0dip</dimen>
+    <dimen name="resource_list_horizontal_padding">40.0dip</dimen>
+    <dimen name="resource_list_vertical_offset_from_top">15.0dip</dimen>
+    <dimen name="resource_multiple_button_size">70.0dip</dimen>
+    <dimen name="resource_page_item_multiple_button_addition_top_padding">15.0dip</dimen>
+    <dimen name="resource_page_item_title_text_size">17.0sp</dimen>
+    <dimen name="resource_recommend_multiple_button_gap_default">35.5dip</dimen>
+    <dimen name="recommend_item_thumbnail_vertical_offset">30.0dip</dimen>
+</resources>
