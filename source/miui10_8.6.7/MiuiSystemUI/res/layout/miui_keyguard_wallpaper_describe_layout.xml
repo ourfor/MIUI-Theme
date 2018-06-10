@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.keyguard.wallpaper.WallPaperDesView android:orientation="vertical" android:id="@id/wallpaper_des" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginStart="27.0dip" android:layout_marginEnd="17.0dip">
+        <TextView android:textSize="@dimen/wallpaper_des_title_text_size" android:textColor="@color/wallpaper_des_title_text_color" android:gravity="center_vertical" android:id="@id/title" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="10.0dip" />
+        <TextView android:textSize="@dimen/wallpaper_des_content_text_size" android:textColor="@color/wallpaper_des_content_text_color" android:ellipsize="end" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" android:lineSpacingExtra="2.0dip" android:layout_marginEnd="7.0dip" />
+    </com.android.keyguard.wallpaper.WallPaperDesView>
+</merge>

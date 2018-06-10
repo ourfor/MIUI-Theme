@@ -1,0 +1,134 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MiuiSystemUI.apk
+compressionType: false
+doNotCompress:
+- arsc
+- png
+- res/drawable-ldrtl-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xhdpi-v4/lb_card_shadow_focused.9.png
+- res/drawable-xhdpi-v4/lb_card_shadow_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/bugreport_btn_bg_normal.9.png
+- res/drawable-xxhdpi-v4/bugreport_btn_bg_pressed.9.png
+- res/drawable-xxhdpi-v4/camera_preview.9.png
+- res/drawable-xxhdpi-v4/exit_multi_window_bg_n.9.png
+- res/drawable-xxhdpi-v4/exit_multi_window_bg_p.9.png
+- res/drawable-xxhdpi-v4/fs_gesture_bg_finish.9.png
+- res/drawable-xxhdpi-v4/fs_gesture_bg_ready.9.png
+- webp
+- res/drawable-xxhdpi-v4/ic_notification_overlay.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg_darkmode.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg_darkmode_cts.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg_land.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg_land_darkmode.9.png
+- res/drawable-xxhdpi-v4/ic_sysbar_bg_land_darkmode_cts.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_first_list_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_last_list_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_middle_list_first_item_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_middle_list_second_item_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_charging_info_middle_list_third_item_bg.9.png
+- res/drawable-xxhdpi-v4/keyguard_left_view_list_n.9.png
+- res/drawable-xxhdpi-v4/keyguard_left_view_list_p.9.png
+- res/drawable-xxhdpi-v4/lb_action_bg_focused.9.png
+- res/drawable-xxhdpi-v4/lb_in_app_search_bg.9.png
+- res/drawable-xxhdpi-v4/lb_in_app_search_shadow_focused.9.png
+- res/drawable-xxhdpi-v4/lb_in_app_search_shadow_normal.9.png
+- jpg
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_left_normal.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_left_pressed.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_right_normal.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_right_pressed.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_single_normal.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_forget_password_single_pressed.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_input_bg.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_notification_item_bg_n.9.png
+- res/drawable-xxhdpi-v4/miui_keyguard_notification_item_bg_p.9.png
+- res/drawable-xxhdpi-v4/miui_password_unlock_screen_input_field_bg_error.9.png
+- res/drawable-xxhdpi-v4/nav_background.9.png
+- res/drawable-xxhdpi-v4/notch_state_bg.9.png
+- res/drawable-xxhdpi-v4/notification_importance_n.9.png
+- res/drawable-xxhdpi-v4/notification_importance_p.9.png
+- res/drawable-xxhdpi-v4/notification_item_bg_n.9.png
+- res/drawable-xxhdpi-v4/notification_item_bg_p.9.png
+- res/drawable-xxhdpi-v4/optimized_game_heads_up_notification_action_button_bg_n.9.png
+- res/drawable-xxhdpi-v4/optimized_game_heads_up_notification_action_button_bg_p.9.png
+- res/drawable-xxhdpi-v4/optimized_heads_up_notification_action_button_bg_n.9.png
+- res/drawable-xxhdpi-v4/optimized_heads_up_notification_action_button_bg_p.9.png
+- res/drawable-xxhdpi-v4/pip_dismiss_scrim.9.png
+- res/drawable-xxhdpi-v4/recent_task_separator.9.png
+- res/drawable-xxhdpi-v4/recents_lower_gradient.9.png
+- res/drawable-xxhdpi-v4/recents_status_gradient.9.png
+- res/drawable-xxhdpi-v4/recents_task_shadow.9.png
+- res/drawable-xxhdpi-v4/screen_round_corner_bottom.9.png
+- res/drawable-xxhdpi-v4/screen_round_corner_top.9.png
+- res/drawable-xxhdpi-v4/screen_view_slide_bar.9.png
+- res/drawable-xxhdpi-v4/screen_view_slide_bar_bg.9.png
+- res/drawable-xxhdpi-v4/screenshot_btn_bg_normal.9.png
+- res/drawable-xxhdpi-v4/screenshot_btn_bg_pressed.9.png
+- res/drawable-xxhdpi-v4/screenshot_panel.9.png
+- res/drawable-xxhdpi-v4/screenshot_thumbnail_shadow.9.png
+- res/drawable-xxhdpi-v4/search_bg_transparent.9.png
+- res/drawable-xxhdpi-v4/seekbar_bg_light.9.png
+- res/drawable-xxhdpi-v4/seekbar_progress_primary_light.9.png
+- res/drawable-xxhdpi-v4/sim_unlock_confirm_pinnum_disable.9.png
+- res/drawable-xxhdpi-v4/sim_unlock_confirm_pinnum_normal.9.png
+- res/drawable-xxhdpi-v4/sim_unlock_confirm_pinnum_pressed.9.png
+- res/drawable-xxhdpi-v4/status_background.9.png
+- res/drawable-xxhdpi-v4/status_bar_yellow_bar_bg_n.9.png
+- res/drawable-xxhdpi-v4/status_bar_yellow_bar_bg_p.9.png
+- res/drawable-xxhdpi-v4/wallpaper_des_more_bg_n.9.png
+- res/drawable-xxhdpi-v4/wallpaper_des_more_bg_p.9.png
+- ogg
+- res/raw/megviifacepp_model
+- res/raw/panorama_mgb_s1
+- res/raw/panorama_mgb_s2
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '26'
+  targetSdkVersion: '26'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  mistats_version: '8'
+  com/xiaomi/xmsf/push/service/IHttpService.aidl: '8'
+  com/xiaomi/xmsf/push/service/IStatService.aidl: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  - 17
+  tag: null
+version: 2.3.3
+versionInfo:
+  versionCode: '20161130'
+  versionName: '20161130'

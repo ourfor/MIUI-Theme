@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/qs_tile_icon_size" android:width="@dimen/qs_tile_icon_size" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/qs_tile_icon_disabled_color" android:pathData="M38.5 5l0 0c0.960434 0 1.881531 0.3815309 2.56066 1.0606602l9.232233 9.2322328c0.390524 0.390524 0.390524 1.023689 0 1.414214C50.105357 16.894643 49.851003 17 49.585786 17L42 17c-0.552285 0 -1 0.447715 -1 1l0 39c0 1.104569 -0.895431 2 -2 2l0 0c-1.104569 0 -2 -0.895431 -2 -2L37 6.5C37 5.6715729 37.671573 5 38.5 5Z" />
+    <path android:fillColor="@color/qs_tile_icon_disabled_color" android:pathData="M25 5l0 0c1.104569 0 2 0.8954305 2 2l0 50.5c0 0.828427 -0.671573 1.5 -1.5 1.5l0 0c-0.960434 0 -1.881531 -0.381531 -2.56066 -1.06066l-9.232233 -9.232233c-0.390524 -0.390524 -0.390524 -1.02369 0 -1.414214C13.894643 47.105357 14.148997 47 14.414214 47L22 47c0.552285 0 1 -0.447715 1 -1L23 7c0 -1.1045695 0.89543 -2 2 -2z" />
+</vector>

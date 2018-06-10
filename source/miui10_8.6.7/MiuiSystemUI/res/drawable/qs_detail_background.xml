@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:paddingBottom="@dimen/qs_customize_padding_bottom" android:paddingMode="nest"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/qs_customize_padding_bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/qs_detail_background_color" />
+            <corners android:radius="@dimen/notification_stack_scroller_bg_radius" />
+        </shape>
+    </item>
+</layer-list>

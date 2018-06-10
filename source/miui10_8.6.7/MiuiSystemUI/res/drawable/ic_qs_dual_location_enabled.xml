@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/qs_tile_icon_size" android:width="@dimen/qs_tile_icon_size" android:viewportWidth="64.0" android:viewportHeight="64.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:rotation="45.0" android:translateX="26.97361" android:translateY="-14.15812">
+        <path android:pathData="M15.577165 49.48097L30.577164 1.4809704 45.577165 49.48097l-15.000001 -11z" android:strokeColor="@color/qs_tile_icon_enabled_color" android:strokeWidth="4.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+    <group android:rotation="45.0" android:translateX="37.78155" android:translateY="-24.22523">
+        <path android:pathData="M38.86716 21.060595L42.381091 9.5707728 57.399264 57.416731 47.739582 50.220287" android:strokeColor="@color/qs_tile_icon_enabled_color" android:strokeWidth="4.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    </group>
+</vector>

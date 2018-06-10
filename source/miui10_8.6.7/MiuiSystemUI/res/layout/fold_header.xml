@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.miui.statusbar.notification.FoldHeaderView android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/left_arrow" />
+    <TextView android:textSize="20.0dip" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38.0dip" android:text="@string/un_important_notifications" android:drawableLeft="@null" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/fold_dividing_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/fold_dividing_line_height" android:layout_marginLeft="@dimen/fold_dividing_line_margin" android:layout_marginRight="@dimen/fold_dividing_line_margin" />
+</com.android.systemui.miui.statusbar.notification.FoldHeaderView>
