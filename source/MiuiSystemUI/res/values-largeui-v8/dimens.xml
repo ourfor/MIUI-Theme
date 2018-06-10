@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="notification_min_height">77.0dip</dimen>
-    <dimen name="notification_row_min_height">77.0dip</dimen>
-    <dimen name="notification_max_height">310.0dip</dimen>
-    <dimen name="notification_row_max_height">310.0dip</dimen>
-    <dimen name="statusbar_text_bottom_padding">0.70000005dip</dimen>
-    <dimen name="statusbar_battery_text_bottom_padding">0.5500001dip</dimen>
-</resources>

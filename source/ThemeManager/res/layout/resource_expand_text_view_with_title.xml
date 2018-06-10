@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/title" style="@style/Resource.Detail.Category.Title" />
-    <com.android.thememanager.view.ExpandableTextView android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/detail_category_horizontal_padding" android:paddingEnd="@dimen/detail_category_horizontal_padding">
-        <TextView android:textSize="@miui:dimen/secondary_text_size" android:textColor="@color/resource_secondary_color" android:id="@id/expandable_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <TextView android:id="@id/expand_collapse" android:visibility="gone" android:minHeight="@dimen/resource_expand_text_view_expand_collapse_min_height" android:text="@string/resource_expand_full_text" style="@style/Resource.Widget.ExpandAll" />
-    </com.android.thememanager.view.ExpandableTextView>
-</LinearLayout>

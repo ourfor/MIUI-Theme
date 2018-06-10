@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="160.0dip" android:scaleType="centerCrop" />
-    <View android:background="@drawable/recycler_card_divider" android:layout_width="fill_parent" android:layout_height="@dimen/recycler_divider_height" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/local_grid_item_bg" android:paddingTop="@dimen/detail_category_vertical_normal_padding" android:paddingBottom="@dimen/detail_category_vertical_normal_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@android:id/title" style="@style/Resource.Detail.Category.Title" />
-    <View android:id="@id/divider" android:background="@drawable/resource_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="5.0dip" android:layout_marginStart="@dimen/detail_category_horizontal_padding" android:layout_marginEnd="@dimen/detail_category_horizontal_padding" />
-</LinearLayout>

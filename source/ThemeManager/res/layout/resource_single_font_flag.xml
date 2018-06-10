@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/root_flag" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="start|center|top" android:id="@id/top_flag" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <ImageView android:layout_gravity="end|center" android:id="@id/center_flag" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/bottom_flag" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <CheckBox android:layout_gravity="end|center" android:id="@android:id/checkbox" android:background="@drawable/resource_batch_select_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

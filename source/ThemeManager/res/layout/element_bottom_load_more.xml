@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/card_view_more" android:background="@drawable/card_view_more_bg_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:background="@color/card_line_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <TextView android:textSize="11.0sp" android:textColor="@color/card_view_more_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/resource_see_more" />
-</LinearLayout>

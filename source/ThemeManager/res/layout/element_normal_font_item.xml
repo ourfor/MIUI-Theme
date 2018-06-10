@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/card_font_list_height" android:paddingStart="@dimen/itemview_horizontal_padding_from_screen" android:paddingEnd="@dimen/itemview_horizontal_padding_from_screen"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:paddingTop="@dimen/card_font_thunmnail_padding_vertical" android:paddingBottom="@dimen/card_font_thunmnail_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-    <TextView android:layout_gravity="end|bottom|center" android:id="@id/origin_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginBottom="4.0dip" style="@style/ResourceBrowser.ResourceDescription.SubDescription" />
-    <ViewStub android:layout_gravity="center_vertical" android:id="@id/rank_count" android:layout="@layout/element_rank_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <include layout="@layout/horizontal_divider" />
-</FrameLayout>

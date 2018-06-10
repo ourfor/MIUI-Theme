@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.android.thememanager.view.ConvenientBanner android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="@dimen/top_banner_height" app:isLoop="true" app:indicatorResourceId="@drawable/top_banner_indicator_selector" app:duration="3000" app:indicatorPadding="2.0dip" app:indicatorOrientation="center" app:indicatorMarginBottom="6.6999817dip" />
-    <com.android.thememanager.view.NinePatchImageView android:id="@id/hide_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_below="@id/banner" />
-</RelativeLayout>

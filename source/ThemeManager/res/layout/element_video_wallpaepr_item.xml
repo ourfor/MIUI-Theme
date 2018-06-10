@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingBottom="@dimen/recycler_divider_height" android:layout_width="@dimen/display_triple_image_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" style="@style/ThreeGridItemThumbnailView" />
-    <CheckBox android:id="@android:id/checkbox" android:layout_alignBottom="@id/thumbnail" style="@style/FavoritedListCheckboxBtn" />
-</RelativeLayout>

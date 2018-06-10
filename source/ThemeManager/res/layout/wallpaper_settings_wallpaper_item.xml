@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/thumbnail" android:background="@drawable/resource_thumbnail_bg_round_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="matrix" />
-    <CheckBox android:layout_gravity="end|bottom|center" android:id="@android:id/checkbox" android:background="@drawable/resource_batch_select_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:gravity="center" android:layout_gravity="center" android:id="@id/load_view_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/left_blur" android:background="@color/wallpaper_subject_viewpager_item_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="true" />
-    <ImageView android:id="@id/right_blur" android:background="@color/wallpaper_subject_viewpager_item_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="true" />
-    <android.support.v4.view.WallpaperViewPager android:id="@id/viewpager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:id="@id/left_shade" android:background="@drawable/left_shade_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:id="@id/right_shade" android:background="@drawable/right_shade_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</merge>

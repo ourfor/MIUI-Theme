@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ThemeList>
-    <Theme nameResId="online_precust_museum" onlineId="32a15b84-7417-40b8-b8f9-0c933bb3f5c6" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_museum.jpg" />
-    <Theme nameResId="online_precust_black_gold" onlineId="6c586de0-33a0-45a4-8030-9b0bc35f6bcc" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_black_gold.jpg" />
-    <Theme nameResId="online_precust_forest_stories" onlineId="a9e19882-2638-4467-af31-e09f5ac89f70" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_forest_stories.jpg" />
-    <Theme nameResId="online_precust_chubby_dreamer" onlineId="2d23b3e9-6230-412d-98c9-c04c2c047076" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_chubby_dreamer.jpg" />
-    <Theme nameResId="online_precust_paper_world" onlineId="5d167dd5-d010-43ed-8dd6-b254e7374bf3" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_paper_world.jpg" />
-    <Theme nameResId="online_precust_geometry" onlineId="49ad623b-21ca-4b5c-82d4-1003dd1501b4" thumbnail="file:///android_asset/theme-settings-res/precust_online_theme_geometry.jpg" />
-</ThemeList>

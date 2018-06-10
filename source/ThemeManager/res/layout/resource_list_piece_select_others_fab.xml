@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView android:id="@id/select_others_fab" android:background="@drawable/select_others_fab_bg" android:padding="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@miui:drawable/action_button_new_dark"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

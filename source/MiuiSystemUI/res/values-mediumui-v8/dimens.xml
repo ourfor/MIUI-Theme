@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="statusbar_text_bottom_padding">0.68000007dip</dimen>
-    <dimen name="statusbar_battery_text_bottom_padding">0.5500001dip</dimen>
-</resources>

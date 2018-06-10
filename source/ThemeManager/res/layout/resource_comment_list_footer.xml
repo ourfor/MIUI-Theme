@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/resource_comment_secondary_text_size" android:textColor="@color/resource_comment_list_footer_color" android:gravity="center" android:id="@id/footer" android:paddingTop="@dimen/resource_comment_padding_common" android:paddingBottom="@dimen/resource_comment_padding_common" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/resource_comment_footer"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

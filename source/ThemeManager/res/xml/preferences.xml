@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen android:title="@string/theme_setting"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <CheckBoxPreference android:title="@string/apply_theme_with_ringtones" android:key="apply_theme_with_ringtones" android:defaultValue="false" />
-    <CheckBoxPreference android:title="@string/theme_user_agreement_remind_again" android:key="theme_user_agreement_remind_again" android:summary="@string/theme_user_agreement_remind_summary" android:defaultValue="true" />
-</PreferenceScreen>

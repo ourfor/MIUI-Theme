@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="page_item_title_button_height">16.0dip</dimen>
-    <dimen name="page_item_title_button_width">32.0dip</dimen>
-    <dimen name="resource_list_font_title_bottom_offset">5.0dip</dimen>
-</resources>

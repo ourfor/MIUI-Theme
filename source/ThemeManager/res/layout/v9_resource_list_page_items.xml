@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tab_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.TabBar" />
-    <android.support.v7.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ViewStub android:id="@id/webview_reload_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <include layout="@layout/v9_loading_progress" />
-    <com.android.thememanager.view.SearchPanelItem android:layout_gravity="top" android:id="@id/search_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</FrameLayout>

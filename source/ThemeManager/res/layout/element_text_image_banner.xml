@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.thememanager.view.NinePatchImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="168.69998dip" android:scaleType="fitXY" style="@style/CardBodyView"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

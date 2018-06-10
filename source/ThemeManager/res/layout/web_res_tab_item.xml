@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/tabSummary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@miui:style/TextAppearance.PreferenceCategory" />
-    <TextView android:id="@id/tabTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tabSummary" android:layout_alignParentLeft="true" />
-    <EditText android:id="@id/tabTitleEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabTitleText" android:layout_alignParentRight="true" />
-    <TextView android:id="@id/tabUrlText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tabTitleEdit" android:layout_alignParentLeft="true" />
-    <EditText android:id="@id/tabUrlEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tabUrlText" android:layout_alignParentRight="true" />
-</RelativeLayout>

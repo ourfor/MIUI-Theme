@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/TextAppearance.Comment.Percentage" android:gravity="start|center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="@integer/resource_comment_header_rating_item_title_weight" />
-    <miui.widget.ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:layout_weight="@integer/resource_comment_header_rating_item_progress_weight" android:layout_marginStart="@dimen/resource_comment_padding_common_medium" style="@style/ResourceBrowser.Widget.ProgressBar.ReadOnly" />
-    <TextView android:textAppearance="@style/TextAppearance.Comment.Percentage" android:gravity="end|center" android:id="@id/percentage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="@integer/resource_comment_header_rating_item_percentage_weight" android:layout_marginStart="@dimen/resource_comment_padding_common_medium" />
-</LinearLayout>
